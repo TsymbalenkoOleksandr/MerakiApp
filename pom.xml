@@ -11,7 +11,7 @@
 
 
     <properties>
-        <spring.version>4.2.0.RELEASE</spring.version>
+        <spring.version>4.3.5.RELEASE</spring.version>
         <spring-security.version>4.0.2.RELEASE</spring-security.version>
         <spring-data-jpa.version>1.8.2.RELEASE</spring-data-jpa.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
@@ -98,6 +98,14 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.14</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>SpringSecurityApp</finalName>
